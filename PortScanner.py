@@ -13,7 +13,7 @@ for x in range(1, 65536):
         sock.close()
         del sock
     except:
-        print("Port "+str(x)+" is closed")
+        #print("Port "+str(x)+" is closed")
         sock.close()
         del sock
 print(time.time()-start)
